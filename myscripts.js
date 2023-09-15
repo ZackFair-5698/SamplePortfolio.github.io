@@ -1,11 +1,11 @@
-const audio = document.getElementById('myAudio');
-        const playButton = document.getElementById('playButton');
-        const pauseButton = document.getElementById('pauseButton');
+// Get a reference to the audio element
+const audio = document.getElementById("myAudio");
 
-        playButton.addEventListener('click', () => {
-            audio.play();
-        });
-
-        pauseButton.addEventListener('click', () => {
-            audio.pause();
-        });
+// Add a click event listener to toggle the visibility
+audio.addEventListener("click", function() {
+  if (audio.style.display === "none" || audio.style.display === "") {
+    audio.style.display = "block";
+  } else {
+    audio.style.display = "none";
+  }
+});
