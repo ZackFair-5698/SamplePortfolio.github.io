@@ -481,10 +481,10 @@ footer a{
 .hidden-audio {
     display: auto;
     margin-top: 0 auto;
-    opacity: 0;
-    position: absolute; /* You can also use 'fixed' for a fixed position */
-    top: 299px; /* Adjust the top distance as needed */
-    left: 459px; /* Adjust the left distance as needed */
+    /* position: absolute; */
+    /* opacity: 0; 
+    top: 299px; 
+    left: 459px;  */
 }
 
 /* Adjustments for screens smaller than 768px */
