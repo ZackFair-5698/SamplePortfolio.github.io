@@ -478,13 +478,21 @@ footer a{
 
 }
 
-.hidden-audio {
+.audio-container {
     display: auto;
-    margin-top: 0 auto;
+    margin: 20px;
     /* position: absolute; */
     /* opacity: 0; 
     top: 299px; 
     left: 459px;  */
+}
+
+#audio-player {
+    width: 100%;
+}
+
+#hide-audio-button {
+    display: none;
 }
 
 /* Adjustments for screens smaller than 768px */
