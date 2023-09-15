@@ -590,3 +590,54 @@ footer a{
         margin-top: 10px;
     }
 }
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    /* Adjust h3 font size and line-height */
+    h3 {
+        font-size: 5rem;
+        line-height: 4rem;
+    }
+
+    /* Adjust p font size */
+    .Contact-description p {
+        font-size: 2rem;
+    }
+}
+
+/* Media query for screens with a maximum width of 480px */
+@media (max-width: 480px) {
+    /* Further adjust h3 font size and line-height */
+    h3 {
+        font-size: 4rem;
+        line-height: 3rem;
+    }
+
+    /* Further adjust p font size */
+    .Contact-description p {
+        font-size: 1.5rem;
+    }
+}
+
+/* Default styles for social icons */
+.social-icons i {
+    font-size: 3.5rem;
+    margin: 0 15px; /* Small gap between icons */
+    color: white;
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    .social-icons i {
+        font-size: 2.5rem; /* Reduce the icon size */
+        margin: 0 10px;   /* Reduce the gap between icons */
+    }
+}
+
+/* Media query for screens with a maximum width of 480px */
+@media (max-width: 480px) {
+    .social-icons i {
+        font-size: 2rem; /* Further reduce the icon size */
+        margin: 0 5px;  /* Further reduce the gap between icons */
+    }
+}
