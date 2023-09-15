@@ -482,6 +482,9 @@ footer a{
     display: auto;
     margin-top: 0 auto;
     opacity: 0;
+    position: absolute; /* You can also use 'fixed' for a fixed position */
+    top: 299px; /* Adjust the top distance as needed */
+    left: 316px; /* Adjust the left distance as needed */
 }
 
 
