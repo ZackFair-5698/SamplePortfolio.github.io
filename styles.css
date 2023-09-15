@@ -240,23 +240,23 @@ Now, when you hover over "City Skyline," "Magazine," or "Penguin," the left and 
 */
 
 #Contact{
+    padding: 50px 0;
     width:100%;
     height:80vh;
     background-color: var(--color14); /*5,7*/
 }
 
 h3{
-    margin-top: 0%;
-    margin-bottom: 0%;
-    font-size: 7rem;
+    font-size: 3rem; /* Keep the font size */
+    margin: 0;
     font-weight:600;
     
 }
 
 .Contact-description p{
-    font-size: 3rem;
-    font-weight: 200;
+    font-size: 2rem; /* Keep the font size */
     margin: 0;
+    font-weight: 200;
     font-style: italic;
 }
 
@@ -273,6 +273,7 @@ h3{
 }
 
 .social-icons{
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -280,8 +281,8 @@ h3{
 }
 
 .social-icons i{
-    font-size: 3.5rem;
-    margin: 0 15px; /* Small gap between icons */
+    font-size: 2.5rem; /* Keep the font size */
+    margin: 0 15px;
     color: white;
 }
 
@@ -571,41 +572,22 @@ footer a{
     }
 }
 
-
-/* Adjustments for screens smaller than 768px */
+/* Responsive adjustments for screens smaller than 768px */
 @media (max-width: 768px) {
-    .Contact-description {
-        padding-top: 10%; /* Decrease the top padding for smaller screens */
+    #Contact {
+        padding: 30px 0;
     }
 
-    .Contact-description h3 {
-        font-size: 5rem; /* Reduce the font size for smaller screens */
-    }
-
-    .Contact-description p {
-        font-size: 2rem; /* Reduce the font size for smaller screens */
-    }
-
+    /* Font size remains the same for h3, p, and social icons */
     .social-icons {
-        padding-top: 20px; /* Decrease the top padding for smaller screens */
-    }
-
-    .social-icons i {
-        font-size: 2.5rem; /* Reduce the icon size for smaller screens */
+        margin-top: 15px;
     }
 }
 
-/* Adjustments for screens smaller than 480px */
+/* Responsive adjustments for screens smaller than 480px */
 @media (max-width: 480px) {
-    .Contact-description h3 {
-        font-size: 4rem; /* Further reduce the font size for even smaller screens */
-    }
-
-    .Contact-description p {
-        font-size: 1.5rem; /* Further reduce the font size for even smaller screens */
-    }
-
-    .social-icons i {
-        font-size: 2rem; /* Further reduce the icon size for even smaller screens */
+    /* Font size remains the same for h3, p, and social icons */
+    .social-icons {
+        margin-top: 10px;
     }
 }
