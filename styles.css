@@ -479,6 +479,6 @@ footer a{
 }
 
 .hidden-audio {
-    display: none;
+    display: auto;
 }
 
