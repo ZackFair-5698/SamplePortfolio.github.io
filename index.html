@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/97a0b5ecb4.js" crossorigin="anonymous"></script>
+    <!-- <script src="myscripts.js"></script> -->
 </head>
 <body>
     <header>
@@ -51,17 +52,13 @@
                 <div class="bar"></div>
 
             </div>
-            <div class="audio-container">
-                <audio id="audio-player" controls autoplay loop controlslist="nodownload">
+
+            <audio id="myAudio" controls autoplay loop class="hidden-audio"  controlslist="nodownload">
                 <source src="music/Crash.mp3" type="audio/mpeg">
                 <source src="music/Crashv2.ogg" type="audio/ogg">
                 <source src="music/Crashv3.flac" type="audio/flac">
                 Your browser does not support the audio element.
             </audio>
-        </div>
-            
-        <button id="hide-audio-button">Hide Player</button>
-        <script src="myscripts.js"></script>
         </section>
         <section id="projects">
             <h2>These are some of my projects</h2>
