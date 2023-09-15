@@ -484,3 +484,11 @@ footer a{
 }
 
 
+/* Default styles for larger screens */
+/* Add your styles here */
+
+/* Styles for screens less than 600px wide (mobile phones) */
+@media (max-width: 600px) {
+    /* Add your responsive styles here */
+ }
+ 
