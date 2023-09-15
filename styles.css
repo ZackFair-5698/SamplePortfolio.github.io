@@ -487,12 +487,86 @@ footer a{
     left: 459px; /* Adjust the left distance as needed */
 }
 
+/* Adjustments for screens smaller than 768px */
+@media (max-width: 768px) {
+    /* Example of hiding the regular navigation links and showing a mobile menu button */
+    .nav-bar ul {
+        display: none;
+    }
+    .mobile-menu-button {
+        display: block;
+    }
+}
 
-/* Default styles for larger screens */
-/* Add your styles here */
+/* Adjustments for screens smaller than 768px */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px; /* Adjust as needed */
+    }
+}
 
-/* Styles for screens less than 600px wide (mobile phones) */
-@media (max-width: 600px) {
-    /* Add your responsive styles here */
- }
- 
+/* Adjustments for screens smaller than 480px */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px; /* Adjust as needed */
+    }
+}
+
+/* Adjustments for screens smaller than 768px */
+@media (max-width: 768px) {
+    #image {
+        width: 250px; /* Adjust as needed */
+        height: 250px; /* Adjust as needed */
+    }
+}
+
+/* Adjustments for screens smaller than 480px */
+@media (max-width: 480px) {
+    #image {
+        width: 150px; /* Adjust as needed */
+        height: 150px; /* Adjust as needed */
+    }
+}
+
+/* Adjustments for screens smaller than 768px */
+@media (max-width: 768px) {
+    .project-tile h1 {
+        padding-top: 12px; /* Adjust as needed */
+    }
+}
+
+/* Adjustments for screens smaller than 480px */
+@media (max-width: 480px) {
+    .project-tile h1 {
+        padding-top: 8px; /* Adjust as needed */
+    }
+}
+
+/* Adjustments for screens smaller than 768px */
+@media (max-width: 768px) {
+    .project-container {
+        grid-template-columns: repeat(2, 1fr); /* Example: Two columns */
+    }
+}
+
+/* Adjustments for screens smaller than 480px */
+@media (max-width: 480px) {
+    .project-container {
+        grid-template-columns: 1fr; /* Single column, stack elements */
+    }
+}
+
+
+/* Adjustments for screens smaller than 768px */
+@media (max-width: 768px) {
+    footer {
+        font-size: 14px; /* Adjust as needed */
+    }
+}
+
+/* Adjustments for screens smaller than 480px */
+@media (max-width: 480px) {
+    footer {
+        font-size: 12px; /* Adjust as needed */
+    }
+}
