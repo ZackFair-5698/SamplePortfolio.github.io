@@ -481,6 +481,7 @@ footer a{
 .hidden-audio {
     display: auto;
     margin-top: 0 auto;
+    opacity: 0%;
 }
 
 
