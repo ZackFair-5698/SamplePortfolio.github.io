@@ -570,3 +570,42 @@ footer a{
         font-size: 12px; /* Adjust as needed */
     }
 }
+
+
+/* Adjustments for screens smaller than 768px */
+@media (max-width: 768px) {
+    .Contact-description {
+        padding-top: 10%; /* Decrease the top padding for smaller screens */
+    }
+
+    .Contact-description h3 {
+        font-size: 5rem; /* Reduce the font size for smaller screens */
+    }
+
+    .Contact-description p {
+        font-size: 2rem; /* Reduce the font size for smaller screens */
+    }
+
+    .social-icons {
+        padding-top: 20px; /* Decrease the top padding for smaller screens */
+    }
+
+    .social-icons i {
+        font-size: 2.5rem; /* Reduce the icon size for smaller screens */
+    }
+}
+
+/* Adjustments for screens smaller than 480px */
+@media (max-width: 480px) {
+    .Contact-description h3 {
+        font-size: 4rem; /* Further reduce the font size for even smaller screens */
+    }
+
+    .Contact-description p {
+        font-size: 1.5rem; /* Further reduce the font size for even smaller screens */
+    }
+
+    .social-icons i {
+        font-size: 2rem; /* Further reduce the icon size for even smaller screens */
+    }
+}
