@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/97a0b5ecb4.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="myscripts.js"></script>
 </head>
 <body>
     <header>
@@ -49,8 +49,15 @@
                 <div class="bar"></div>
         
                 <div class="bar"></div>
-        
+
             </div>
+
+            <audio id="myAudio" controls autoplay loop class="hidden-audio"  controlslist="nodownload">
+                <source src="music/Crash.mp3" type="audio/mpeg">
+                <source src="music/Crashv2.ogg" type="audio/ogg">
+                <source src="music/Crashv3.flac" type="audio/flac">
+                Your browser does not support the audio element.
+            </audio>
         </section>
         <section id="projects">
             <h2>These are some of my projects</h2>
@@ -110,12 +117,7 @@
                     <i class="fa-solid fa-phone" style="color: white;"></i>
                 </a>
             </div>
-            <audio controls autoplay loop class="hidden-audio">
-                <source src="music/Crash.mp3" type="audio/mpeg">
-                <source src="music/Crashv2.ogg" type="audio/ogg">
-                <source src="music/Crashv3.flac" type="audio/flac">
-                Your browser does not support the audio element.
-            </audio>
+            
         </section>
         <footer>
             <div class="divider1"></div>
