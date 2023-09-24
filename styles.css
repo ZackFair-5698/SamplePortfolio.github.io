@@ -446,4 +446,7 @@ footer a{
     body, header, nav > ul, .nav-bar ul li, nav li, nav li:last-child, nav li a, nav li:hover, #welcome-section, #welcome-section h1,p ,#num1, #num2, #num3, #projects, #projects h2, .divider, .project-container, #image, .project1, .project-tile h1, #project-link, #project-link .arrow , #project-link:hover .arrow , #Contact, h3, .Contact-description p, .Contact-description, .social-icons, .social-icons i, .divider1, .footer-content, footer p, footer a, .music, .music .bar, .music .bar:nth-child(1), .music .bar:nth-child(2), .music .bar:nth-child(3), .music .bar:nth-child(4), .music .bar:nth-child(5), .music .bar:nth-child(6), .music .bar:nth-child(7), .music .bar:nth-child(8), .music .bar:nth-child(9), .music .bar:nth-child(10) {
         width: 100%;
     }
+    #image{
+        height: 100%;
+    }
 }
