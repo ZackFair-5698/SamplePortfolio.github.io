@@ -33,6 +33,8 @@ body{
     position: relative;
     margin:0;
     padding:0;
+    font-family: 'Roboto', Arial, Verdana, sans-serif;
+
 }
 
 header{
@@ -227,18 +229,6 @@ nav li:hover{
     color: white/*var(--color11)*/;
 }
 
-/*
-Explanation to this ^^^^;
-
-I wrapped the left and right arrow <p> elements with <span> tags and gave them the classes .arrow. This way, we can target these elements separately and apply the color transition.
-
-In the CSS, I changed the selector to target .arrow elements inside the #project-link anchor. This will affect both the left and right arrow spans.
-
-The :hover pseudo-class is applied to the #project-link anchor, so when you hover over any part of the project title, both arrow spans will change color simultaneously.
-
-Now, when you hover over "City Skyline," "Magazine," or "Penguin," the left and right arrow elements will transition to the specified color simultaneously.
-*/
-
 #Contact{
     width:100%;
     height:80vh;
@@ -311,42 +301,6 @@ footer a{
     text-decoration: none;
 }
 
-/* Default styles */
-
-/* Adjustments for screens smaller than 768px */
-@media (max-width: 768px) {
-    html {
-        font-size: 50%; /* Adjust as needed */
-    }
-
-    header {
-        height: 60px; /* Smaller header height for smaller screens */
-        justify-content: center; /* Center content for smaller screens */
-    }
-
-    nav li {
-        font-size: 1.8rem; /* Smaller font size for nav items */
-        padding-left: 10px; /* Adjust spacing for smaller screens */
-        padding-right: 10px;
-    }
-
-    /* Adjust other styles for smaller screens */
-}
-
-/* Adjustments for screens smaller than 480px */
-@media (max-width: 480px) {
-    header {
-        height: 50px; /* Even smaller header height */
-    }
-
-    nav li {
-        font-size: 1.6rem; /* Further reduce font size */
-        padding-left: 5px; /* Adjust spacing further */
-        padding-right: 5px;
-    }
-
-    /* Adjust other styles for even smaller screens */
-}
 
 .music{
 
@@ -488,156 +442,8 @@ footer a{
 }
 
 /* Adjustments for screens smaller than 768px */
-@media (max-width: 768px) {
-    /* Example of hiding the regular navigation links and showing a mobile menu button */
-    .nav-bar ul {
-        display: none;
-    }
-    .mobile-menu-button {
-        display: block;
-    }
-}
-
-/* Adjustments for screens smaller than 768px */
-@media (max-width: 768px) {
-    body {
-        font-size: 16px; /* Adjust as needed */
-    }
-}
-
-/* Adjustments for screens smaller than 480px */
-@media (max-width: 480px) {
-    body {
-        font-size: 14px; /* Adjust as needed */
-    }
-}
-
-/* Adjustments for screens smaller than 768px */
-@media (max-width: 768px) {
-    #image {
-        width: 250px; /* Adjust as needed */
-        height: 250px; /* Adjust as needed */
-    }
-}
-
-/* Adjustments for screens smaller than 480px */
-@media (max-width: 480px) {
-    #image {
-        width: 150px; /* Adjust as needed */
-        height: 150px; /* Adjust as needed */
-    }
-}
-
-/* Adjustments for screens smaller than 768px */
-@media (max-width: 768px) {
-    .project-tile h1 {
-        padding-top: 12px; /* Adjust as needed */
-    }
-}
-
-/* Adjustments for screens smaller than 480px */
-@media (max-width: 480px) {
-    .project-tile h1 {
-        padding-top: 8px; /* Adjust as needed */
-    }
-}
-
-/* Adjustments for screens smaller than 768px */
-@media (max-width: 768px) {
-    .project-container {
-        grid-template-columns: repeat(2, 1fr); /* Example: Two columns */
-    }
-}
-
-/* Adjustments for screens smaller than 480px */
-@media (max-width: 480px) {
-    .project-container {
-        grid-template-columns: 1fr; /* Single column, stack elements */
-    }
-}
-
-
-/* Adjustments for screens smaller than 768px */
-@media (max-width: 768px) {
-    footer {
-        font-size: 14px; /* Adjust as needed */
-    }
-}
-
-/* Adjustments for screens smaller than 480px */
-@media (max-width: 480px) {
-    footer {
-        font-size: 12px; /* Adjust as needed */
-    }
-}
-
-/* Responsive adjustments for screens smaller than 768px */
-@media (max-width: 768px) {
-    #Contact {
-        padding: 30px 0;
-    }
-
-    /* Font size remains the same for h3, p, and social icons */
-    .social-icons {
-        margin-top: 15px;
-    }
-}
-
-/* Responsive adjustments for screens smaller than 480px */
-@media (max-width: 480px) {
-    /* Font size remains the same for h3, p, and social icons */
-    .social-icons {
-        margin-top: 10px;
-    }
-}
-
-/* Media query for screens with a maximum width of 768px */
-@media (max-width: 768px) {
-    /* Adjust h3 font size and line-height */
-    h3 {
-        font-size: 5rem;
-        line-height: 4rem;
-    }
-
-    /* Adjust p font size */
-    .Contact-description p {
-        font-size: 2rem;
-    }
-}
-
-/* Media query for screens with a maximum width of 480px */
-@media (max-width: 480px) {
-    /* Further adjust h3 font size and line-height */
-    h3 {
-        font-size: 4rem;
-        line-height: 3rem;
-    }
-
-    /* Further adjust p font size */
-    .Contact-description p {
-        font-size: 1.5rem;
-    }
-}
-
-/* Default styles for social icons */
-.social-icons i {
-    font-size: 3.5rem;
-    margin: 0 15px; /* Small gap between icons */
-    color: white;
-}
-
-/* Media query for screens with a maximum width of 768px */
-@media (max-width: 768px) {
-    .social-icons i {
-        font-size: 2.5rem; /* Reduce the icon size */
-        margin: 0 10px;   /* Reduce the gap between icons */
-    }
-}
-
-/* Media query for screens with a maximum width of 480px */
-@media (max-width: 480px) {
-    .social-icons i {
-        font-size: 2rem; /* Further reduce the icon size */
-        margin: 0 5px;  /* Further reduce the gap between icons */
+@media screen and (max-width: 800px) {
+    body, header, nav > ul, .nav-bar ul li, nav li, nav li:last-child, nav li a, nav li:hover, #welcome-section, #welcome-section h1,p ,#num1, #num2, #num3, #projects, #projects h2, .divider, .project-container, #image, .project1, .project-tile h1, #project-link, #project-link .arrow , #project-link:hover .arrow , #Contact, h3, .Contact-description p, .Contact-description, .social-icons, .social-icons i, .divider1, .footer-content, footer p, footer a, .music, .music .bar, .music .bar:nth-child(1), .music .bar:nth-child(2), .music .bar:nth-child(3), .music .bar:nth-child(4), .music .bar:nth-child(5), .music .bar:nth-child(6), .music .bar:nth-child(7), .music .bar:nth-child(8), .music .bar:nth-child(9), .music .bar:nth-child(10) {
+        width: 100%;
     }
 }
