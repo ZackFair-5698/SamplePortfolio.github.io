@@ -449,4 +449,7 @@ footer a{
     #image{
         height: 100%;
     }
+    footer p{
+        font-size: 19px;
+    }
 }
