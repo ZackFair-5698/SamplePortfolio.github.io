@@ -232,7 +232,7 @@ nav li:hover{
 #Contact{
     width:100%;
     height:80vh;
-    background-color: var(--color14); /*5,7*/
+    background-color: var(--color14);
 }
 
 h3{
